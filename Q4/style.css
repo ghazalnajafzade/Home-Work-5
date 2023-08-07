@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  transform: scale(0.8);
+  width: 600px;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 40px;
+  background-color: #ffea90;
+}
+.container h1 {
+  font-size: 2rem;
+  margin: 20px auto;
+  padding-top: 30px;
+  color: #411272;
+}
+#Message {
+  background-color: #411272;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+  color: #ffea90;
+  font-size: 20px;
+  border: none;
+}
+.positionMessage {
+  color: #411272;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.top-bottom,
+.left-right {
+  font-size: 30px;
+  color: #411272;
+  margin: 20px;
+  padding: 20px;
+}
+#submit {
+  background-color: #411272;
+  color: #ffea90;
+  padding: 10px;
+  width: 110px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+#toast {
+  position: absolute;
+  padding: 1rem 2rem;
+  min-width: 300px;
+  background-color: #411272;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: large;
+  color: #ffea90;
+}
+.bgc-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 20px;
+}
+.bgc {
+  font-size: 28px;
+  color: #411272;
+}
+#bgc-input {
+  border: none;
+  border-radius: 10px;
+  background-color: #5c3388;
+  color: #ffea90;
+  text-align: center;
+  font-size: large;
+  text-decoration: dashed;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./img/2aac709d-e77a-41ff-9034-d94f8e43036a.png"
+        width="200px"
+        height="200px"
+      />
+      <h1>LOG IN</h1>
+      <form id="form">
+        <div class="user-box">
+          <svg
+            id="user-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-person-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+            />
+          </svg>
+          <input id="username" type="text" placeholder="Username" />
+        </div>
+        <div class="pass-box">
+          <svg
+          id="pass-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-lock-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"
+            />
+          </svg>
+          <input id="password" type="text" placeholder="Password" />
+          <div class="remember-box">
+            <input type="checkbox" id="checkbox"/>
+            <label id="remember" for="remember">Remember me</label>
+          </div>
+        <input type="submit" id="submit" value="Login"/>
+      </form>
+      <div class="Forget">
+      <a class="forget" href="#">Forget Password?</a>
+    </div>
+    </div>
+  </body>
+</html>

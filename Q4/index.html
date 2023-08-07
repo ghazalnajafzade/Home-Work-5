@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <title>Notification</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="form">
+        <img
+          src="./img/Screenshot 2023-07-31 170414.png"
+          width="600"
+          height="350"
+        />
+        <h1>SHOW NOTIFICATION</h1>
+        <textarea
+          rows="4rem"
+          cols="34rem"
+          id="Message"
+          type="text"
+          placeholder="         Enter Your Message "
+          required
+          name="Message"
+        ></textarea>
+        <p class="positionMessage">Specify the position of the message:</p>
+        <div class="top-bottom">
+          <input type="radio" id="top" name="topOrBottom" value="top" />
+          <label for="top"> TOP</label>
+          <input type="radio" id="bottom" name="topOrBottom" value="bottom" />
+          <label for="bottom"> BOTTOM</label>
+        </div>
+        <div class="left-right">
+          <input type="radio" id="left" name="leftOrRight" value="left" />
+          <label for="left">LEFT</label>
+          <input type="radio" id="right" name="leftOrRight" value="right" />
+          <label for="right">RIGHT</label>
+        </div>
+        <!-- <div class="bgc-div">
+          <p class="bgc">background color</p>
+          <input type="text" id="bgc-input" />
+        </div> -->
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+    <pre id="toast"> Hello World </pre>
+  </body>
+</html>
